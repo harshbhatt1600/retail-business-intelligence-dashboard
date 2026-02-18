@@ -74,6 +74,30 @@ The dataset was structured using a star schema design in PostgreSQL.
 The structured schema enabled efficient DAX calculations and scalable reporting.
 ---
 
+## 📐 DAX & Analytical Modeling
+
+The dashboard leverages custom DAX measures to calculate KPIs, customer segmentation logic, and profitability metrics.
+
+### Key Measures Implemented
+
+- Total Sales  
+- Total Profit  
+- Profit Margin %  
+- Avg Revenue per Customer  
+- Loss-Making Customers %  
+- Customer Margin %
+
+### Advanced Calculations
+
+- Dynamic segment-level margin evaluation
+- Top N customer ranking by profit
+- Conditional formatting for margin performance
+- Discount impact analysis using combined measures
+
+All measures were designed to support business-driven insights rather than simple aggregations.
+
+---
+
 ## 🛠 Tech Stack
 
 - PostgreSQL – Data storage and querying
