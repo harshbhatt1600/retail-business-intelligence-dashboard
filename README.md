@@ -1,21 +1,23 @@
 # Retail Business Intelligence Dashboard
 
-End-to-End Retail Analytics Project using PostgreSQL and Power BI.
+End-to-End Business Intelligence Solution built using PostgreSQL and Power BI.
+
 ---
 
 ## 📊 Project Overview
 
-This project presents a multi-page business intelligence solution analyzing retail sales, profitability, and customer behavior.
+This project presents a multi-page Business Intelligence solution analyzing retail sales, profitability, and customer behavior.
 
 The dataset contains multi-year transactional sales data across customers, products, and segments.
 
 The dashboard is structured into three analytical views:
 
-- Executive Overview
-- Profitability Analysis
-- Customer Intelligence
+- Executive Overview  
+- Profitability Analysis  
+- Customer Intelligence  
 
-The goal of this project is to identify revenue concentration, profitability drivers, customer segmentation performance, and discount impact across product categories.
+The objective is to identify revenue concentration, profitability drivers, customer segmentation performance, and discount impact across product categories.
+
 ---
 
 ## 📸 Dashboard Screenshots
@@ -38,6 +40,7 @@ The goal of this project is to identify revenue concentration, profitability dri
 - 19.5% of customers are loss-making, indicating pricing or discount inefficiencies.
 - The High Value segment consists of 1 customer currently operating at a negative margin.
 - Furniture category shows high discounting with comparatively weaker profit margins.
+
 ---
 
 ## 📂 Dashboard Structure
@@ -60,7 +63,6 @@ Highlights top profit-contributing customers and evaluates discount impact on ma
 
 The dataset was modeled using a star schema design to enable scalable analytics and optimized DAX performance in Power BI.
 
-
 ### Database Design
 - Fact Table: `public_fact_sales_star`
 - Dimension Tables:
@@ -74,8 +76,8 @@ The dataset was modeled using a star schema design to enable scalable analytics 
 - Revenue bucket classification for customer segmentation
 - Discount calculations and category-level performance evaluation
 
-The structured schema enabled efficient DAX calculations and scalable reporting.
 All SQL scripts used for schema creation, transformations, and analytical queries are available in the `/sql` directory of this repository.
+
 ---
 
 ## 📐 DAX & Analytical Modeling
@@ -93,10 +95,10 @@ The dashboard leverages custom DAX measures to calculate KPIs, customer segmenta
 
 ### Advanced Calculations
 
-- Dynamic segment-level margin evaluation
-- Top N customer ranking by profit
-- Conditional formatting for margin performance
-- Discount impact analysis using combined measures
+- Top N customer ranking by profit  
+- Segment-level margin evaluation  
+- Conditional formatting for performance tracking  
+- Discount impact analysis using combined measures  
 
 All measures were designed to support business-driven insights rather than simple aggregations.
 
@@ -104,25 +106,21 @@ All measures were designed to support business-driven insights rather than simpl
 
 ## 🛠 Tech Stack
 
-- PostgreSQL – Data storage and querying
-- SQL – Data transformation and modeling
-- Power BI – Data visualization and dashboard design
-- DAX – KPI calculations and analytical measures
+- PostgreSQL – Data storage and querying  
+- SQL – Data transformation and modeling  
+- Power BI – Data visualization and dashboard design  
+- DAX – KPI calculations and analytical measures  
+
 ---
 
 ## 📈 Business Impact
 
 This project demonstrates:
 
-- Revenue concentration analysis
-- Profitability driver identification
-- Customer segmentation intelligence
-- Discount effectiveness evaluation
-- End-to-End Business Intelligence Solution built using PostgreSQL and Power BI.
-
+- Revenue concentration analysis  
+- Profitability driver identification  
+- Customer segmentation intelligence  
+- Discount effectiveness evaluation  
+- End-to-end BI workflow from database modeling to executive dashboard  
 
 The dashboard design focuses on structured storytelling, executive-level insights, and data-driven decision support.
-
-
-
-
