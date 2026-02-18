@@ -14,3 +14,12 @@ The dashboard is structured into three analytical views:
 - Customer Intelligence
 
 The goal of this project is to identify revenue concentration, profitability drivers, customer segmentation performance, and discount impact across product categories.
+---
+
+## 🛠 Tech Stack
+
+- PostgreSQL – Data storage and querying
+- SQL – Data transformation and modeling
+- Power BI – Data visualization and dashboard design
+- DAX – KPI calculations and analytical measures
+
