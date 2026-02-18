@@ -16,12 +16,17 @@ The dashboard is structured into three analytical views:
 The goal of this project is to identify revenue concentration, profitability drivers, customer segmentation performance, and discount impact across product categories.
 ---
 
-## 🛠 Tech Stack
+## 📸 Dashboard Screenshots
 
-- PostgreSQL – Data storage and querying
-- SQL – Data transformation and modeling
-- Power BI – Data visualization and dashboard design
-- DAX – KPI calculations and analytical measures
+### Executive Overview
+![Executive Overview](images/executive_overview.png)
+
+### Profitability Analysis
+![Profitability Analysis](images/profitability_analysis.png)
+
+### Customer Intelligence
+![Customer Intelligence](images/customer_intelligence.png)
+
 ---
 
 ## 📌 Key Business Insights
@@ -46,18 +51,35 @@ Identifies highest and lowest margin contributors and segment-category combinati
 ### 3️⃣ Customer Intelligence
 Analyzes revenue concentration by customer segment.  
 Highlights top profit-contributing customers and evaluates discount impact on margins.
+
 ---
 
-## 📸 Dashboard Screenshots
+## 🗄 Data Modeling & SQL Workflow
 
-### Executive Overview
-![Executive Overview](images/executive_overview.png)
+The dataset was structured using a star schema design in PostgreSQL.
 
-### Profitability Analysis
-![Profitability Analysis](images/profitability_analysis.png)
+### Database Design
+- Fact Table: `public_fact_sales_star`
+- Dimension Tables:
+  - `public_dim_customers`
+  - `public_dim_products`
+  - `public_dim_dates`
 
-### Customer Intelligence
-![Customer Intelligence](images/customer_intelligence.png)
+### SQL Transformations
+- Data cleaning and normalization
+- Aggregation logic for sales and profit calculations
+- Revenue bucket classification for customer segmentation
+- Discount calculations and category-level performance evaluation
+
+The structured schema enabled efficient DAX calculations and scalable reporting.
+---
+
+## 🛠 Tech Stack
+
+- PostgreSQL – Data storage and querying
+- SQL – Data transformation and modeling
+- Power BI – Data visualization and dashboard design
+- DAX – KPI calculations and analytical measures
 ---
 
 ## 📈 Business Impact
