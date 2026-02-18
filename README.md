@@ -72,6 +72,7 @@ The dataset was structured using a star schema design in PostgreSQL.
 - Discount calculations and category-level performance evaluation
 
 The structured schema enabled efficient DAX calculations and scalable reporting.
+All SQL scripts used for schema creation, transformations, and analytical queries are available in the `/sql` directory of this repository.
 ---
 
 ## 📐 DAX & Analytical Modeling
@@ -117,6 +118,7 @@ This project demonstrates:
 - End-to-end business intelligence workflow from SQL to dashboard
 
 The dashboard design focuses on structured storytelling, executive-level insights, and data-driven decision support.
+
 
 
 
