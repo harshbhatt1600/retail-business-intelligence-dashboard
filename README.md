@@ -46,4 +46,17 @@ Identifies highest and lowest margin contributors and segment-category combinati
 ### 3️⃣ Customer Intelligence
 Analyzes revenue concentration by customer segment.  
 Highlights top profit-contributing customers and evaluates discount impact on margins.
+---
+
+## 📸 Dashboard Screenshots
+
+### Executive Overview
+![Executive Overview](images/executive_overview.png)
+
+### Profitability Analysis
+![Profitability Analysis](images/profitability_analysis.png)
+
+### Customer Intelligence
+![Customer Intelligence](images/customer_intelligence.png)
+
 
