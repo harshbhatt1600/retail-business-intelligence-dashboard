@@ -1,2 +1,3 @@
-# retail-business-intelligence-dashboard
-End-to-end retail analytics project using PostgreSQL and Power BI.
+# Retail Business Intelligence Dashboard
+
+End-to-End Retail Analytics Project using PostgreSQL and Power BI.
