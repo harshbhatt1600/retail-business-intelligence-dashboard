@@ -58,5 +58,19 @@ Highlights top profit-contributing customers and evaluates discount impact on ma
 
 ### Customer Intelligence
 ![Customer Intelligence](images/customer_intelligence.png)
+---
+
+## 📈 Business Impact
+
+This project demonstrates:
+
+- Revenue concentration analysis
+- Profitability driver identification
+- Customer segmentation intelligence
+- Discount effectiveness evaluation
+- End-to-end business intelligence workflow from SQL to dashboard
+
+The dashboard design focuses on structured storytelling, executive-level insights, and data-driven decision support.
+
 
 
