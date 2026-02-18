@@ -7,6 +7,8 @@ End-to-End Retail Analytics Project using PostgreSQL and Power BI.
 
 This project presents a multi-page business intelligence solution analyzing retail sales, profitability, and customer behavior.
 
+The dataset contains multi-year transactional sales data across customers, products, and segments.
+
 The dashboard is structured into three analytical views:
 
 - Executive Overview
@@ -56,7 +58,8 @@ Highlights top profit-contributing customers and evaluates discount impact on ma
 
 ## 🗄 Data Modeling & SQL Workflow
 
-The dataset was structured using a star schema design in PostgreSQL.
+The dataset was modeled using a star schema design to enable scalable analytics and optimized DAX performance in Power BI.
+
 
 ### Database Design
 - Fact Table: `public_fact_sales_star`
@@ -115,7 +118,8 @@ This project demonstrates:
 - Profitability driver identification
 - Customer segmentation intelligence
 - Discount effectiveness evaluation
-- End-to-end business intelligence workflow from SQL to dashboard
+- End-to-End Business Intelligence Solution built using PostgreSQL and Power BI.
+
 
 The dashboard design focuses on structured storytelling, executive-level insights, and data-driven decision support.
 
