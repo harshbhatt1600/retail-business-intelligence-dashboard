@@ -12,8 +12,8 @@ GROUP BY customer_id;
 UPDATE public_dim_customers c
 SET revenue_bucket =
     CASE
-        WHEN r.total_sales >= 10000 THEN 'High Value'
-        WHEN r.total_sales >= 3000 THEN 'Mid Value'
+        WHEN r.total_sales >= 20000 THEN 'High Value'
+        WHEN r.total_sales >= 10000 THEN 'Mid Value'
         ELSE 'Low Value'
     END
 FROM customer_total_revenue r
